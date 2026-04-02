@@ -10,18 +10,18 @@ on:
   workflow_dispatch:
     inputs:
       fnnas_base_version:
-        description: "Select fnnas base image version"
+        description: "rockchip_692"
         required: false
-        default: "amlogic_693"
+        default: "rockchip_692"
         type: choice
         options:
           - allwinner_691
           - amlogic_693
           - rockchip_692
       fnnas_board:
-        description: "Select fnnas device board"
+        description: "rk3568-nvr-demo-v12"
         required: false
-        default: "all"
+        default: "nanopi-r5s"
         type: choice
         options:
           - all
